@@ -7,7 +7,6 @@ import './categories_screen.dart';
 class TabsScreen extends StatefulWidget {
   final List<Meal> _favoriteMeals;
 
-
   TabsScreen(this._favoriteMeals);
 
   @override
@@ -22,7 +21,6 @@ class _TabsScreenState extends State<TabsScreen> {
       _selectedPageIndex = index;
     });
   }
-
 
   @override
   void initState() {
